@@ -1,17 +1,7 @@
-# sftext-formatter README
+# SFText Formatter
 
-## Features
+Formatter for SFText. SFText is a script format used in ScenarioFlow.
 
-This extension provides formatter for SFText.
+See [here](https://github.com/dotprologue/ScenarioFlow.git) for details about ScenarioFlow.
 
-## Requirements
-
-## Extension Settings
-
-## Known Issues
-
-## Release Notes
-
-### 1.0.0
-
-First release
+![example](./images/example.gif)

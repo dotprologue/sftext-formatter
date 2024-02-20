@@ -3,8 +3,13 @@
   "displayName": "SFText Formatter",
   "description": "Formatter for SFText",
   "version": "1.0.0",
-  "publisher": "Rugosa Soft",
-  "icon": "icon.png",
+  "publisher": "dotprologue",
+  "license": "MIT",
+  "icon": "./images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotprologue/sftext-formatter.git"
+  },
   "keywords": [
     "sftext",
     "scenarioflow"
