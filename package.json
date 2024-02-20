@@ -2,7 +2,13 @@
   "name": "sftext-formatter",
   "displayName": "SFText Formatter",
   "description": "Formatter for SFText",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "Rugosa Soft",
+  "icon": "icon.png",
+  "keywords": [
+    "sftext",
+    "scenarioflow"
+  ],
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -14,7 +20,17 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": []
+    "configuration": {
+      "title": "SFText Formatter",
+      "properties": {
+        "SFText Formatter.halfWidthCharacterList": {
+          "order": 0,
+          "type": "string",
+          "default": "\\x01-\\x7E\\uFF65-\\uFF9F",
+          "description": "Characters treated as half-width character. Enter characters like 'a-zA-Z!@#$%^&*()_+'."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
