@@ -6,6 +6,7 @@
   "publisher": "dotprologue",
   "license": "MIT",
   "icon": "./images/icon.png",
+  "homepage": "https://dotprologue.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/dotprologue/sftext-formatter.git"
