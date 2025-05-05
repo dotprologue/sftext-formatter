@@ -33,7 +33,19 @@
           "order": 0,
           "type": "string",
           "default": "\\x01-\\x7E\\uFF65-\\uFF9F",
-          "description": "Characters treated as half-width character. Enter characters like 'a-zA-Z!@#$%^&*()_+'."
+          "description": "Enter characters to be recognized as half-width in the regular expression manner"
+        },
+        "SFText Formatter.halfWidthConstant": {
+          "order": 1,
+          "type": "integer",
+          "default": "20",
+          "description": "Enter the number of half-width characters required for the alignment"
+        },
+        "SFText Formatter.fullWidthConstant": {
+          "order": 2,
+          "type": "integer",
+          "default": "11",
+          "description": "Enter the number of full-width characters required for the alignment"
         }
       }
     }
